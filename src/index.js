@@ -19,6 +19,7 @@ app.use(express.static(publicDirPath));
 // socket.broadcast.emit sends to everyone except this connection
 // .on - it runs everytime someone connects
 // emit = send event to triger on - .on
+// test git push ____
 
 io.on('connection', (socket) => {                         
     console.log(`io.on > websocket connection`)
